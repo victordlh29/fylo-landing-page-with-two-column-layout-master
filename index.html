@@ -8,6 +8,18 @@
 
   <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
   <link rel="stylesheet" href="assets/Style/index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
   <title>Frontend Mentor | Fylo landing page with two column layout</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -36,27 +48,32 @@
         <a href=""> Sign In</a>
       </div>
     </nav>
-    <section>
-      <div>
-        <h1>All your files in one secure location, accessible anywhere.</h1>
-        <p> Fylo stores your most important files in one secure location.
-          Access them wherever you need, share and collaborate with friends,
-          family, and co-workers.</p>
-        <input type="text"> <button> Get Started</button>
+    <section id="Get-Started-Section">
+      <div id="title-1">
+        <h1>All your files in one secure <br> location, accessible anywhere.</h1>
+        <div id="content-text-1">
+          <p class="text-1"> Fylo stores your most important files in one secure location.
+            Access <br> them wherever you need, share and collaborate with friends,
+            family, <br> and co-workers.</p>
+        </div>
+        <div id="imput-email">
+          <input id="email" type="email" placeholder="Enter your email...">
+          <button class="submit"> Get Started</button>
+        </div>
       </div>
-      <div>
-        <img src="assets/images/illustration-1.svg" alt="illustration-1">
+      <div class="content-illustration">
+        <img id="illustration" src="assets/images/illustration-1.svg" alt="illustration-1">
       </div>
     </section>
     <section>
-      <div>
+      <div id="">
         <h1>Stay productive, wherever you are</h1>
         <p> Never let location be an issue when accessing your files. Fylo has you
           covered for all of your file storage needs.</p>
         <p>Securely share files and folders with friends, family and colleagues for
           live collaboration. No email attachments required!</p>
         <p> See how Fylo works<img src="assets/images/icon-arrow.svg" alt=""></p>
-        <div>
+        <div class="content-illustration">
           <img src="assets/images/illustration-2.svg" alt="">
         </div>
       </div>
@@ -83,7 +100,7 @@
       </div>
     </section>
   </div>
-  
+
   <!--  Features
   Team
   Sign In
@@ -131,7 +148,7 @@
   Terms
   Privacy -->
 
- <!--  <footer>
+  <!--  <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
       Coded by <a href="#">Your Name Here</a>.
@@ -140,15 +157,28 @@
 </body>
 <footer style="height: 150px;">
   <img src="assets/images/logo.svg" alt="">
-  <div>
-    <img src="assets/images/icon-phone.svg" alt="">
-    <img src="assets/images/icon-email.svg" alt="">
-  </div>
-
-  <div>
-    <span><i class="fa-brands fa-facebook"></i></span>
-    <i class="fa-brands fa-twitter"></i>
-    <i class="fa-brands fa-instagram"></i>
+  <div id="footer-container">
+    <div id="contact">
+      <img src="assets/images/icon-phone.svg" alt="" style="background-color: black;">
+      <p>Phone: +1-543-123-4567</p>
+      <img src="assets/images/icon-email.svg" alt="" style="background-color: black;">
+      <p>example@fylo.com</p>
+    </div>
+    <div id="options-container">
+      <a href="">About Us</a>
+      <a href=""> Jobs</a>
+      <a href="">Press</a>
+      <a href="">Blog</a>
+      <a href=""> Contact Us </a>
+      <a href="">Terms</a>
+      <a href="">Privacy</a>
+    </div>
+    <div id="social-media">
+      <span style="color: #000;"><i class="fa-brands fa-facebook"></i></span>
+      <span><i class="fa-brands fa-twitter"></i></span>
+      <span><i class="fa-brands fa-instagram"></i></span>
+    </div>
   </div>
 </footer>
+
 </html>
